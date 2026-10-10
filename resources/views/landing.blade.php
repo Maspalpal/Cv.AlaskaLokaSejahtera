@@ -222,7 +222,7 @@
 
                         <!-- Main Card Visual -->
                         <div class="relative rounded-3xl overflow-hidden shadow-2xl border border-white/15 bg-navy-900/60 backdrop-blur-md group">
-                            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1000&q=80" 
+                            <img src="{{ asset('images/hero-cold-storage.jpeg') }}" 
                                  alt="CV Alaska Loka Sejahtera Cold Storage Facility" 
                                  class="w-full h-80 sm:h-[400px] object-cover object-center group-hover:scale-105 transition-transform duration-700">
                             

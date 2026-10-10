@@ -22,7 +22,7 @@ class LandingPageController extends Controller
                 'subtitle' => 'Residential, Commercial & Industrial',
                 'description' => 'Penjualan unit baru, pemasangan profesional, perawatan rutin, isi freon, perbaikan kerusakan, dan pembersihan menyeluruh. Cocok untuk rumah, kantor, ruko, hingga gedung bertingkat.',
                 'scopes' => ['Penjualan Unit Baru', 'Pemasangan Profesional', 'Perawatan Rutin & Isi Freon', 'Perbaikan Kerusakan'],
-                'image' => 'https://images.unsplash.com/photo-1621905251189-08b45d6a269e?auto=format&fit=crop&w=800&q=80',
+                'image' => asset('images/layanan-ac.jpeg'),
             ],
             [
                 'number' => 2,
@@ -30,7 +30,7 @@ class LandingPageController extends Controller
                 'subtitle' => 'Chiller Room & Freezer Room',
                 'description' => 'Penjualan & pemasangan sesuai ukuran dan kebutuhan, perawatan berkala, pengecekan suhu, perbaikan sistem kompresor, dan penggantian suku cadang. Ideal untuk penyimpanan makanan, hasil laut, obat-obatan, dan produk pertanian.',
                 'scopes' => ['Penjualan & Fabrikasi', 'Pemasangan Presisi', 'Pengecekan Suhu Rutin', 'Perbaikan Kompresor & Sparepart'],
-                'image' => 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80',
+                'image' => asset('images/layanan-cold-storage.jpeg'),
             ],
             [
                 'number' => 3,
@@ -38,7 +38,7 @@ class LandingPageController extends Controller
                 'subtitle' => 'Ultra-Fast Freezing Technology',
                 'description' => 'Penjualan, instalasi, perawatan, dan perbaikan. Dirancang untuk pembekuan cepat guna menjaga kesegaran dan kualitas produk makanan, daging, ikan, dan olahan beku.',
                 'scopes' => ['Penjualan Mesin ABF', 'Instalasi Ruang Pembeku', 'Perawatan Kapasitas Suhu', 'Perbaikan Cepat'],
-                'image' => 'https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80',
+                'image' => asset('images/layanan-abf.jpeg'),
             ],
             [
                 'number' => 4,
@@ -46,7 +46,7 @@ class LandingPageController extends Controller
                 'subtitle' => 'Non-Freezing Cold Storage & HVAC',
                 'description' => 'Penjualan, penyesuaian kapasitas, perawatan suhu, perbaikan sistem sirkulasi, dan penggantian komponen. Sangat cocok untuk penyimpanan sementara dengan suhu dingin non-beku pada usaha kuliner, pasar swalayan, dan industri.',
                 'scopes' => ['Penjualan & Penyesuaian Kapasitas', 'Perawatan Suhu Terkontrol', 'Perbaikan Sistem Sirkulasi', 'Penggantian Komponen'],
-                'image' => 'https://images.unsplash.com/photo-1581092160607-ee22621dd758?auto=format&fit=crop&w=800&q=80',
+                'image' => asset('images/layanan-chiller.jpeg'),
             ],
             [
                 'number' => 5,
@@ -54,7 +54,7 @@ class LandingPageController extends Controller
                 'subtitle' => 'Hygienic Ice Tube & Cube',
                 'description' => 'Penjualan berbagai kapasitas, pemasangan, perawatan rutin, pembersihan saluran air, pengecekan sistem pendingin, dan perbaikan kerusakan. Untuk kebutuhan rumah makan, pabrik, dan industri kuliner.',
                 'scopes' => ['Penjualan Berbagai Kapasitas', 'Pemasangan Unit', 'Pembersihan Saluran Air', 'Pengecekan & Servis'],
-                'image' => 'https://images.unsplash.com/photo-1518057111178-44a106bad636?auto=format&fit=crop&w=800&q=80',
+                'image' => asset('images/layanan-es-kristal.jpeg'),
             ],
         ];
 
